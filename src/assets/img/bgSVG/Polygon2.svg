@@ -1,0 +1,24 @@
+<svg width="527" height="352" viewBox="0 0 527 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgba(255,255,255,.04)"/>
+        <stop offset="50%" stop-color="rgba(255,255,255,.04)"/>
+        <stop offset="75%" stop-color="rgba(255,255,255,.08)"/>
+        <stop offset="100%" stop-color="rgba(255,255,255,.08)"/>
+      </linearGradient>
+   
+  </defs>
+<g filter="url(#filter0_d)">
+<path d="M4 74L523 0L211 344L4 74Z" fill="url(#Gradient2)" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="527" height="352" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
