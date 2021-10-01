@@ -1,5 +1,5 @@
 export { default as Navbar } from "./Navbar"
-export { default as Company } from "./Company"
 export { default as ShowCase } from "./ShowCase"
-export { default as Boxes } from "./Boxes"
+export { default as Company } from "./Company"
 export { default as Service } from "./Service"
+export { default as Boxes } from "./Boxes"

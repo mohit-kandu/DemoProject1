@@ -5,27 +5,30 @@ import logo2 from "../assets/img/logo/Group-1.svg"
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top border-bottom border-white border-2">
-            <div className="container-fluid px-5 position-relative">
-                <img src={logo} alt="" />
-                <img className="position-absolute sit-in-center" src={logo2} alt="" />
-                <a className="navbar-brand text-shadow" href="#">Awesome Social</a>
+        <nav className="navbar navbar-expand-lg navbar-dark border-bottom border-white border-2">
+            <div className="container-fluid px-xl-5 company-brand">
+                <div className="position-relative ">
+                    <img src={logo} alt="" />
+                    <img className="position-absolute sit-in-center" src={logo2} alt="" />
+                    <a className="navbar-brand text-shadow" href="#">Awesome Social</a>
+
+                </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navmenu">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item mx-4">
-                            <a href="#learn" className="nav-link">Features</a>
+                            <a href="#" className="nav-link">Features</a>
                         </li>
                         <li className="nav-item mx-4">
-                            <a href="#accordion" className="nav-link">Social</a>
+                            <a href="#" className="nav-link">Social</a>
                         </li>
                         <li className="nav-item mx-4">
-                            <a href="#instructors" className="nav-link">Agencies</a>
+                            <a href="#" className="nav-link">Agencies</a>
                         </li>
                         <li className="nav-item mx-4">
-                            <a href="#instructors" className="nav-link">Pricing</a>
+                            <a href="#" className="nav-link">Pricing</a>
                         </li>
                         <li className="nav-item mx-4">
                             <button className="btn btn-dark btn-lg py-3 custom-border custom-px">Start Free Trial</button>

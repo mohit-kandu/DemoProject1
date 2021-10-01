@@ -8,11 +8,11 @@ export default function Boxes() {
                 <section className="container">
                     <div className="row text-center g-4 text-dark">
                         {arr.map(item => {
-                            return <div className="col-md">
+                            return <div className="col-md box-shadow px-0 mx-2">
                                 <div className="card  bg-super-light custompb-1" >
                                     <div className="text-center">
-                                        <div className="container custompb-4 bg-white position-relative">
-                                            <h3 className="card-title fs-4 fw-bold position-relative sit-bottom-left">Company name</h3>
+                                        <div className="container custompb-4 bg-white position-relative sit-bottom-left">
+                                            <h3 className="card-title px-4 pt-5 fs-4 fw-bold position-relative ">Company name</h3>
                                         </div>
                                         <p className="card-text lh-1 p-5 custompb-3 bg-super-light">The mega summit has everything you would expect in an event. The mega summit has everything you </p>
                                     </div>
